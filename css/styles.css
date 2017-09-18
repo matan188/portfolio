@@ -9,6 +9,24 @@
     color: white;
 }
 
+.card-action > .icon {
+    font-size: 3em;
+}
+
+.card .card-title {
+    font-weight: normal;
+}
+
+.card-content > p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+a > .card {
+    text-decoration: none;
+    color: black;
+}
+
 .hero-img:after {
     content: '';
     position: absolute;
@@ -20,10 +38,19 @@
     opacity: .4;
   }
 
+  .icon {
+      font-size: 4em;
+      margin-right: 25px;
+  }
+
 .thin-text {
     font-weight: 300;
 }
 
 .title {
-    margin-top: -100px;
+    margin-top: -120px;
+}
+
+#staggered-test > li {
+    opacity: 0;
 }
