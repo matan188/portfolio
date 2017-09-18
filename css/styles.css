@@ -1,0 +1,29 @@
+.parallax-container {
+    height: 100vh;
+    /* background-image: linear-gradient(rgba(0,0,0, 0.5),rgba(0,0,0, 0.5)); */
+    
+}
+
+.links {
+    font-size: 4em;
+    color: white;
+}
+
+.hero-img:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom, #311b92, #1a237e);
+    opacity: .4;
+  }
+
+.thin-text {
+    font-weight: 300;
+}
+
+.title {
+    margin-top: -100px;
+}
