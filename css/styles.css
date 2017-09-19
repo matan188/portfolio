@@ -1,30 +1,12 @@
+/* HERO SECTION */
 .parallax-container {
     height: 100vh;
     /* background-image: linear-gradient(rgba(0,0,0, 0.5),rgba(0,0,0, 0.5)); */
     
 }
 
-.links {
-    font-size: 4em;
-    color: white;
-}
-
-.card-action > .icon {
-    font-size: 3em;
-}
-
-.card .card-title {
-    font-weight: normal;
-}
-
-.card-content > p {
-    font-size: 1.2em;
-    font-weight: 300;
-}
-
-a > .card {
-    text-decoration: none;
-    color: black;
+.title {
+    margin-top: -120px;
 }
 
 .hero-img:after {
@@ -36,19 +18,59 @@ a > .card {
     left: 0;
     background-image: linear-gradient(to bottom, #311b92, #1a237e);
     opacity: .4;
-  }
+}
 
-  .icon {
-      font-size: 4em;
-      margin-right: 25px;
-  }
+
+/* ABOUT SECTION */
+
+.icon {
+    font-size: 4em;
+    margin-right: 25px;
+}
+
+.fa.icon {
+    font-size: 4em;
+}
+
+.card .card-title {
+    font-weight: normal;
+}
+
+.card-content > p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.card .card-content.center {
+    padding-bottom: 40px; 
+    padding-top: 15px; 
+}
+
+#skills {
+    padding-bottom: 5px;
+}
+
+.sql {
+    font-size: 2.5em;
+    font-style: normal;
+}
+
+/* PROJECTS SECTION */
+
+a > .card {
+    text-decoration: none;
+    color: black;
+}
 
 .thin-text {
     font-weight: 300;
 }
 
-.title {
-    margin-top: -120px;
+
+/* FOOTER */
+.links {
+    font-size: 4em;
+    color: white;
 }
 
 #staggered-test > li {
